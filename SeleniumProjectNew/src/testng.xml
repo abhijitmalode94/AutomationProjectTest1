@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Regression Suite" verbose="4" thread-count="10" parallel="tests">
+
+	<test name="Amazone Test">
+
+
+		<classes>
+			<class name="testngsessions.HomePageTest"/>
+		</classes>
+	</test>
+
+
+	<test name="Goole Test">
+		<parameter name="url" value="https://www.google.com" />
+		<parameter name="browser" value="Edge" />
+
+
+
+		<classes>
+			<class name="testngsessions.GoogleTest"/>
+		</classes>
+	</test>
+	
+
+
+
+
+</suite>
