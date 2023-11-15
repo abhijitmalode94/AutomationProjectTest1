@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-25T19:07:41 IST" name="TestNG Regression Suite" finished-at="2023-10-25T19:08:08 IST" duration-ms="26871">
+  <suite started-at="2023-11-06T10:18:53 IST" name="TestNG Regression Suite" finished-at="2023-11-06T10:19:26 IST" duration-ms="32788">
     <groups>
     </groups>
-    <test started-at="2023-10-25T19:07:41 IST" name="Goole Test" finished-at="2023-10-25T19:07:59 IST" duration-ms="17973">
+    <test started-at="2023-11-06T10:18:53 IST" name="Goole Test" finished-at="2023-11-06T10:19:19 IST" duration-ms="25325">
       <class name="testngsessions.GoogleTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testngsessions.GoogleTest@20140db9]" started-at="2023-10-25T19:07:41 IST" name="setup" finished-at="2023-10-25T19:07:51 IST" duration-ms="10177" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testngsessions.GoogleTest@20140db9]" started-at="2023-11-06T10:18:53 IST" name="setup" finished-at="2023-11-06T10:19:06 IST" duration-ms="12903" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,33 +23,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="titleTest()[pri:1, instance:testngsessions.GoogleTest@20140db9]" started-at="2023-10-25T19:07:51 IST" name="titleTest" finished-at="2023-10-25T19:07:54 IST" duration-ms="2351" status="PASS">
+        <test-method signature="titleTest()[pri:1, instance:testngsessions.GoogleTest@20140db9]" started-at="2023-11-06T10:19:06 IST" name="titleTest" finished-at="2023-11-06T10:19:10 IST" duration-ms="3606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method signature="searchExistTest()[pri:2, instance:testngsessions.GoogleTest@20140db9]" started-at="2023-10-25T19:07:54 IST" name="searchExistTest" finished-at="2023-10-25T19:07:59 IST" duration-ms="5084" status="FAIL">
+        <test-method signature="searchExistTest()[pri:2, instance:testngsessions.GoogleTest@20140db9]" started-at="2023-11-06T10:19:10 IST" name="searchExistTest" finished-at="2023-11-06T10:19:15 IST" duration-ms="5079" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='q11']"}
-  (Session info: MicrosoftEdge=118.0.2088.61)
+  (Session info: MicrosoftEdge=118.0.2088.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [27c618efce59c4844da1b98f441fcb0a, findElement {using=name, value=q11}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50362}, msedge: {msedgedriverVersion: 118.0.2088.61 (7eef737ea63b..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50362/devtoo..., se:cdpVersion: 118.0.2088.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 27c618efce59c4844da1b98f441fcb0a]]>
+Command: [81c445e2fc502c203f3cfa8a2994de27, findElement {using=name, value=q11}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.76, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53751}, msedge: {msedgedriverVersion: 118.0.2088.88 (b181cee621c1..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53751/devtoo..., se:cdpVersion: 118.0.2088.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c445e2fc502c203f3cfa8a2994de27]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='q11']"}
-  (Session info: MicrosoftEdge=118.0.2088.61)
+  (Session info: MicrosoftEdge=118.0.2088.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [27c618efce59c4844da1b98f441fcb0a, findElement {using=name, value=q11}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50362}, msedge: {msedgedriverVersion: 118.0.2088.61 (7eef737ea63b..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50362/devtoo..., se:cdpVersion: 118.0.2088.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 27c618efce59c4844da1b98f441fcb0a
+Command: [81c445e2fc502c203f3cfa8a2994de27, findElement {using=name, value=q11}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 118.0.2088.76, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53751}, msedge: {msedgedriverVersion: 118.0.2088.88 (b181cee621c1..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53751/devtoo..., se:cdpVersion: 118.0.2088.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81c445e2fc502c203f3cfa8a2994de27
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -96,151 +96,47 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchExistTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngsessions.GoogleTest@20140db9]" started-at="2023-10-25T19:07:59 IST" name="tearDown" finished-at="2023-10-25T19:07:59 IST" duration-ms="336" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngsessions.GoogleTest@20140db9]" started-at="2023-11-06T10:19:15 IST" name="tearDown" finished-at="2023-11-06T10:19:19 IST" duration-ms="3614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testngsessions.GoogleTest -->
     </test> <!-- Goole Test -->
-    <test started-at="2023-10-25T19:07:41 IST" name="Amazone Test" finished-at="2023-10-25T19:08:08 IST" duration-ms="26871">
+    <test started-at="2023-11-06T10:18:53 IST" name="Amazone Test" finished-at="2023-11-06T10:19:26 IST" duration-ms="32788">
       <class name="testngsessions.HomePageTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-10-25T19:07:41 IST" name="Setup" finished-at="2023-10-25T19:07:47 IST" duration-ms="5969" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-11-06T10:18:53 IST" name="Setup" finished-at="2023-11-06T10:19:09 IST" duration-ms="15717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerifyPageTitle()[pri:1, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-10-25T19:07:47 IST" name="VerifyPageTitle" finished-at="2023-10-25T19:07:47 IST" duration-ms="40" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in] but found [Amazon.in]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in] but found [Amazon.in]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at testngsessions.HomePageTest.VerifyPageTitle(HomePageTest.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="VerifyPageTitle()[pri:1, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-11-06T10:19:09 IST" name="VerifyPageTitle" finished-at="2023-11-06T10:19:09 IST" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-10-25T19:07:47 IST" name="tearDown" finished-at="2023-10-25T19:07:48 IST" duration-ms="495" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-11-06T10:19:09 IST" name="tearDown" finished-at="2023-11-06T10:19:11 IST" duration-ms="1938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-10-25T19:07:48 IST" name="Setup" finished-at="2023-10-25T19:07:53 IST" duration-ms="5186" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-11-06T10:19:11 IST" name="Setup" finished-at="2023-11-06T10:19:17 IST" duration-ms="5719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerfyHelpFiled()[pri:2, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-10-25T19:07:53 IST" name="VerfyHelpFiled" finished-at="2023-10-25T19:07:54 IST" duration-ms="880" status="PASS">
+        <test-method signature="VerfyHelpFiled()[pri:2, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-11-06T10:19:17 IST" name="VerfyHelpFiled" finished-at="2023-11-06T10:19:19 IST" duration-ms="2247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerfyHelpFiled -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-10-25T19:07:54 IST" name="tearDown" finished-at="2023-10-25T19:07:54 IST" duration-ms="294" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-11-06T10:19:19 IST" name="tearDown" finished-at="2023-11-06T10:19:20 IST" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-10-25T19:07:54 IST" name="Setup" finished-at="2023-10-25T19:07:57 IST" duration-ms="3165" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-11-06T10:19:20 IST" name="Setup" finished-at="2023-11-06T10:19:25 IST" duration-ms="5173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerfySerachFiled()[pri:3, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-10-25T19:07:57 IST" name="VerfySerachFiled" finished-at="2023-10-25T19:08:07 IST" duration-ms="10026" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#twotabsearchtextbox"}
-  (Session info: chrome=118.0.5993.117)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [482e5d53e9ba8a76d493b17010c99bfe, findElement {using=id, value=twotabsearchtextbox}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50421/devtoo..., se:cdpVersion: 118.0.5993.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 482e5d53e9ba8a76d493b17010c99bfe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#twotabsearchtextbox"}
-  (Session info: chrome=118.0.5993.117)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [482e5d53e9ba8a76d493b17010c99bfe, findElement {using=id, value=twotabsearchtextbox}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50421/devtoo..., se:cdpVersion: 118.0.5993.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 482e5d53e9ba8a76d493b17010c99bfe
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at testngsessions.HomePageTest.VerfySerachFiled(HomePageTest.java:38)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="VerfySerachFiled()[pri:3, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-11-06T10:19:25 IST" name="VerfySerachFiled" finished-at="2023-11-06T10:19:25 IST" duration-ms="452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerfySerachFiled -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-10-25T19:08:07 IST" name="tearDown" finished-at="2023-10-25T19:08:08 IST" duration-ms="720" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngsessions.HomePageTest@5ba3f27a]" started-at="2023-11-06T10:19:25 IST" name="tearDown" finished-at="2023-11-06T10:19:26 IST" duration-ms="648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -14,16 +14,4 @@
       </class> <!-- testngsessions.GoogleTest -->
     </classes>
   </test> <!-- Goole Test(failed) -->
-  <test thread-count="10" parallel="tests" name="Amazone Test(failed)" verbose="4">
-    <classes>
-      <class name="testngsessions.HomePageTest">
-        <methods>
-          <include name="Setup"/>
-          <include name="tearDown"/>
-          <include name="VerfySerachFiled"/>
-          <include name="VerifyPageTitle"/>
-        </methods>
-      </class> <!-- testngsessions.HomePageTest -->
-    </classes>
-  </test> <!-- Amazone Test(failed) -->
 </suite> <!-- Failed suite [TestNG Regression Suite] -->
