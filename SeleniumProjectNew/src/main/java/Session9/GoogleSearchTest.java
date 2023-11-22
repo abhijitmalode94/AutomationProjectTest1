@@ -23,6 +23,7 @@ public class GoogleSearchTest {
 		//create the generic method 
 		
 		By googleSuggListLocator=By.xpath("//li[@role=\"presentation\"]//div[@class=\"wM6W7d\"]/span");
+		////li[@role="presentation"]//div[@class="wM6W7d"]/span
 		
 		doSearch(googleSuggListLocator,"test speed");
 		

@@ -56,6 +56,12 @@ public class StringManupulation {
 		String str6="I_LOve_Java_Traing_classes";
 		String arr[]=str6.split("_");
 			System.out.println(Arrays.toString(arr));
+			
+			
+//			
+//			 String s = null;
+//			System.out.println( s.length());
+
 				
 				
 	}
