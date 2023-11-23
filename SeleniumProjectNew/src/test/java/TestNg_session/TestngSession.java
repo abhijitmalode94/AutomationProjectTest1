@@ -1,4 +1,4 @@
-package testngsessions;
+package TestNg_session;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;

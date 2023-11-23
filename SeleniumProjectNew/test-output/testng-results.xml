@@ -1,73 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-21T23:06:09 IST" name="Default suite" finished-at="2023-11-21T23:06:22 IST" duration-ms="12142">
+  <suite started-at="2023-11-22T19:10:11 IST" name="Default suite" finished-at="2023-11-22T19:10:19 IST" duration-ms="8078">
     <groups>
     </groups>
-    <test started-at="2023-11-21T23:06:09 IST" name="Default test" finished-at="2023-11-21T23:06:22 IST" duration-ms="12142">
-      <class name="testngsessions.ValidateMobileNumber">
-        <test-method is-config="true" signature="lauchbrowswe()[pri:0, instance:testngsessions.ValidateMobileNumber@27462a88]" started-at="2023-11-21T23:06:09 IST" name="lauchbrowswe" finished-at="2023-11-21T23:06:15 IST" duration-ms="5507" status="PASS">
+    <test started-at="2023-11-22T19:10:11 IST" name="Default test" finished-at="2023-11-22T19:10:19 IST" duration-ms="8078">
+      <class name="TestNg_session.GoogleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNg_session.GoogleTest@27462a88]" started-at="2023-11-22T19:10:11 IST" name="setUp" finished-at="2023-11-22T19:10:18 IST" duration-ms="7254" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lauchbrowswe -->
-        <test-method signature="homePagetest()[pri:0, instance:testngsessions.ValidateMobileNumber@27462a88]" started-at="2023-11-21T23:06:15 IST" name="homePagetest" finished-at="2023-11-21T23:06:15 IST" duration-ms="316" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="searchTest()[pri:0, instance:TestNg_session.GoogleTest@27462a88]" started-at="2023-11-22T19:10:18 IST" name="searchTest" finished-at="2023-11-22T19:10:18 IST" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePagetest -->
-        <test-method signature="validateMobileNumber()[pri:0, instance:testngsessions.ValidateMobileNumber@27462a88]" started-at="2023-11-21T23:06:15 IST" name="validateMobileNumber" finished-at="2023-11-21T23:06:21 IST" duration-ms="5936" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Please enter a valid mobile number.] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Please enter a valid mobile number.] but found []
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at testngsessions.ValidateMobileNumber.validateMobileNumber(ValidateMobileNumber.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- searchTest -->
+        <test-method signature="titleTest()[pri:0, instance:TestNg_session.GoogleTest@27462a88]" started-at="2023-11-22T19:10:18 IST" name="titleTest" finished-at="2023-11-22T19:10:18 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateMobileNumber -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testngsessions.ValidateMobileNumber@27462a88]" started-at="2023-11-21T23:06:21 IST" name="teardown" finished-at="2023-11-21T23:06:22 IST" duration-ms="229" status="PASS">
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestNg_session.GoogleTest@27462a88]" started-at="2023-11-22T19:10:18 IST" name="teardown" finished-at="2023-11-22T19:10:19 IST" duration-ms="644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testngsessions.ValidateMobileNumber -->
+      </class> <!-- TestNg_session.GoogleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

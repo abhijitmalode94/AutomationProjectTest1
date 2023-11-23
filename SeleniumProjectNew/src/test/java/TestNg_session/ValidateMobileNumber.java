@@ -1,4 +1,4 @@
-package testngsessions;
+package TestNg_session;
 
 import static org.testng.Assert.assertEquals;
 

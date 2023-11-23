@@ -1,4 +1,4 @@
-package testngsessions;
+package TestNg_session;
 
 import org.testng.SkipException;
 import org.testng.annotations.Test;

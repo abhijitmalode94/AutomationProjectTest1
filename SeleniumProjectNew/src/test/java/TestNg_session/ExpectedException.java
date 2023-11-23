@@ -1,4 +1,4 @@
-package testngsessions;
+package TestNg_session;
 import org.testng.annotations.Test;
 
 public class ExpectedException {
