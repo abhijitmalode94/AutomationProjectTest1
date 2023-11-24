@@ -7,7 +7,7 @@
 	<test name="Google Test">
 
 		<parameter name="url" value="https://www.google.com/" />
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="Edge" />
 		<classes>
 			<class name="TestNg_session.GoogleTest" />
 		</classes>
@@ -17,7 +17,7 @@
 	<test name="Amazone Test">
 
 		<parameter name="url" value="https://www.amazon.in/" />
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="Edge" />
 		<classes>
 			<class name="TestNg_session.AmazoneTest" />
 		</classes>

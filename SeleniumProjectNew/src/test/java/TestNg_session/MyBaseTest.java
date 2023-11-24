@@ -1,4 +1,4 @@
-package testngsessions;
+package TestNg_session;
 
 import java.time.Duration;
 
@@ -10,8 +10,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
-public class BaseTest {
-	
+public class MyBaseTest {
+
+	// This class is super class of all clasess
+
 	WebDriver driver;
 
 	@Parameters({ "url", "browser" })
@@ -33,7 +35,6 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
 		driver.get(url);
 	}
 

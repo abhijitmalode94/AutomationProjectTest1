@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg_session.LoginPageNegativeTestcases">
+      <class name="TestNg_session.OpenCartStoreTest">
         <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="logintest"/>
+          <include name="setUp"/>
+          <include name="searchTest"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- TestNg_session.LoginPageNegativeTestcases -->
+      </class> <!-- TestNg_session.OpenCartStoreTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
