@@ -35,9 +35,10 @@ public class BrokenLinks {
 		//List<String> url=new ArrayList<String>();
 		
 		for(WebElement e:listUrl) {
-			String urlist=e.getAttribute("herf");
+			String url=e.getAttribute("herf");
 			//url.add(urlist);
-			checktBrokenLinks(urlist);
+			
+			checktBrokenLinks(url);
 			
 		}
 		
@@ -47,24 +48,24 @@ public class BrokenLinks {
 	}
 	
 	
-	public static void checktBrokenLinks(String urllink) {
+	public static void checktBrokenLinks(String url) {
 		try {
 			
-			URL url=new URL(urllink);
-			HttpURLConnection httpUrlConnection=(HttpURLConnection) url.openConnection();
+			URL link=new URL(url);
+			HttpURLConnection httpUrlConnection=(HttpURLConnection) link.openConnection();
 			httpUrlConnection.setConnectTimeout(5000);
 			httpUrlConnection.connect();
 			
 			if(httpUrlConnection.getResponseCode() >=400) {
-				System.out.println(urllink+"---->"+httpUrlConnection.getResponseMessage()+"is a broken link");
+				System.out.println(url+"---->"+httpUrlConnection.getResponseMessage()+"is a broken link");
 			}
 			else {
-				System.out.println(urllink+"---->"+httpUrlConnection.getResponseMessage()+"it is not a broken link");
+				System.out.println(url+"---->"+httpUrlConnection.getResponseMessage()+"it is not a broken link");
 			}
 		}
 		catch(Exception e)
 		{
-		   
+			System.out.println(url + " - " + "is a broken link");
 		}
 	}
 
